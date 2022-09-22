@@ -1,0 +1,485 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Roboto+Condensed:wght@700&family=Roboto:wght@500;900&display=swap');
+
+
+:root{
+    --colorLightBlue:#516171;
+    --darkColor:#092032;
+    --oragnColor :#ff4d29;
+}
+
+.dark-Color{
+    color: var(--darkColor);
+}
+
+.orange-Color{
+    color: var(--oragnColor);
+}
+body{
+font-family: 'Barlow', sans-serif !important;
+line-height: 1.7;
+color:var(--colorLightBlue)
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 700 ; 
+    
+    color: #092032;
+}
+
+a{
+    text-decoration: none !important;
+    transition: all 0.4s;
+    color: var(--darkColor) !important;
+ 
+}
+
+a:hover{
+    color: var(--oragnColor) !important;
+}
+img{
+    width: 100%;
+}
+section{
+
+   
+    padding-bottom: 80px;
+}
+.bg-cover{
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/*  
+top navbar 
+*/
+
+.top-nav{
+    background-color: var(--oragnColor);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p{
+    margin-bottom: 0;
+    display: inline;
+    margin-right: 16px;
+    color: #fff;
+}
+
+.top-nav i,
+.top-nav  span{
+    vertical-align: middle;
+}
+
+.soical-media-top a{
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: inline-flex;
+    align-items:center ;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 100%;
+
+}
+
+.soical-media-top a:hover{
+    background-color:#fff;
+    color: var(--oragnColor);
+}
+
+/* navbar  link */
+
+.navbar{
+    box-shadow:  0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand{
+    font-weight: 700 !important;
+    font-size: 26px;
+    color: var(--darkColor);
+}
+.navbar-brand span{
+    color: var(--oragnColor);
+}
+
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+ color: var(--oragnColor);
+}
+
+/* btn */
+
+.btn-nav{
+    background-color: var(--oragnColor) !important;
+    padding: 9px 24px;
+}
+.btn-nav:hover,
+.btn-outline-light:hover{
+    background-color: #d63e20 !important;
+    
+}
+
+.btn-outline-light:hover{
+    background-color: #d63e20 !important;
+    border: #d63e20 1px solid ;
+    color: #fff;
+    
+}
+.btn-brand{
+    background-color: #d63e20 !important;
+    border: #d63e20 1px solid ;
+    color: #fff;  
+}
+
+/* ==========================================================================================================
+                                                slider
+=============================================================================================================*/
+
+#hero-slider{
+    font-weight: 700 !important;
+}
+
+
+.slide-1{
+    background:linear-gradient(rgba(9,32,50,0.4),rgba(9, 32, 50, 0.4)), url("../img/bg_banner1.jpg");
+}
+
+.slide-2{
+    background:linear-gradient(rgba(9,32,50,0.4),rgba(9, 32, 50, 0.4)), url("../img/bg_banner2.jpg");
+}
+
+
+/* ==========================================================================================================
+                                                OWL CAROUSL
+=============================================================================================================*/
+
+.owl-prev,
+.owl-next{
+    position: absolute;
+    top:50%;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color:rgba(255, 255, 255, 0.2) !important;
+    font-size: 32px;
+    margin-top: -30px !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    border-radius: 50% !important;
+}
+
+.owl-prev{
+left: 0;
+}
+.owl-next{
+    right: 0;
+}
+
+.owl-prev:hover,
+.owl-next:hover{
+    background-color: var(--oragnColor) !important;
+}
+
+/* ==========================================================================================================
+                                                About Sections
+=============================================================================================================*/
+.info-area{
+    display: flex;
+    align-items: center;
+}
+
+.info-area img{
+width: 90px;
+margin-right: 28px;
+}
+
+
+
+
+/* ==========================================================================================================
+                                                milstone Sections
+=============================================================================================================*/
+
+#milstone{
+   
+        background:linear-gradient(rgba(255, 77, 41, 0.9),rgba(255, 77, 41, 0.9)), url("../img/bg_banner2.jpg");
+    
+}
+
+#milstone .display-4,
+#milstone .display-5,
+#milstone p{
+    color: #fff;
+}
+
+#milstone .display-4{
+    font-weight: 700;
+}
+#milstone .fa-solid:hover{
+    border-color: #d63e20 !important;
+    background-color: #fff !important;
+    color: #d63e20 !important ;
+
+}
+
+/* ==========================================================================================================
+                                                Seriveces Sections
+=============================================================================================================*/
+
+
+
+.head-Seriveces{
+    margin-bottom:40px ;
+}
+
+.head-Seriveces h6{
+    color: var(--oragnColor);
+}
+
+.head-Seriveces p{
+    max-width: 500px;
+}
+.Seriveces-card{
+    padding: 32px;
+    box-shadow:  0px 6px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+ 
+
+}
+
+.Seriveces-card img{
+    width: unset;
+}
+
+.Seriveces-card h5{
+    margin-top: 24px;
+    margin-bottom: 12px;
+    color: #092032;
+}
+
+
+/* ==========================================================================================================
+                                                Our work Sections
+=============================================================================================================*/
+
+
+.head-Our-Work{
+    margin-bottom:40px ;
+}
+
+.head-Our-Work h6{
+    color: var(--oragnColor);
+}
+
+.head-Our-Work p{
+    max-width: 500px;
+}
+
+.overlay{
+    position: absolute;
+    background:linear-gradient(to bottom, rgba(9, 33, 52, 0.0),rgba(9, 32, 50, 0.8));
+    width: 100%;
+    bottom: 0;
+    top: 0;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 32px;
+    color: #fff;
+    
+}
+.content h6::before{
+    content: '';
+    height: 2px;
+    width: 24px;
+    background-color: var(--oragnColor);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+
+/* ==========================================================================================================
+                                                Team  Sections
+=============================================================================================================*/
+
+
+.head-team{
+    margin-bottom:40px ;
+}
+
+.head-team h6{
+    color: var(--oragnColor);
+}
+
+.head-team p{
+    max-width: 500px;
+}
+
+.team-member .overly-team{
+    position: absolute;
+    background-color: rgba(214, 62, 32, 0.616);
+    top: -10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+
+.content-team{
+    text-align: center;
+}
+
+.team-member .soical-media-top {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.team-member:hover .overly-team{
+    opacity: 1;
+    top: 0;
+}
+
+.team-member:hover .soical-media-top{
+    opacity: 1;
+    top: 50%;
+}
+
+/* ==========================================================================================================
+                                                Reviews  Sections
+=============================================================================================================*/
+
+.review{
+    background:linear-gradient(rgba(9,32,50,0.8),rgba(9, 32, 50, 0.8)), url("../img/bg_banner1.jpg");
+}
+
+.review-content{
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+.review-content img{
+    width: 85px !important;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.review-content h4,
+.review-content p{
+    color: #fff;
+}
+
+.review-content small{
+    color:  var(--oragnColor);
+}
+
+.review-content p{
+    margin-top: 28px;
+}
+
+
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background-color: var(--oragnColor) !important;
+}
+
+
+/* ==========================================================================================================
+                                                Blog  Sections
+=============================================================================================================*/
+
+.blog-post .tag{
+    position: absolute;
+    padding:4px 12px ;
+    background-color: var(--oragnColor) ;
+    color:#fff !important;
+    border-radius: 100px;
+    top: 20px;
+    left: 20px;
+}
+
+
+.blog-post a{
+    font-weight: 600;
+}
+
+.blog-post img{
+    margin-bottom: 12px;
+}
+
+.blog-post h4{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: #092032;
+}
+
+.blog-post small{
+    color: var(--oragnColor);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+
+/* ==========================================================================================================
+                                                Blog  Sections
+=============================================================================================================*/
+
+footer{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color:#fff;
+    text-align: center;
+    background:linear-gradient(rgba(9,32,50,0.8),rgba(9, 32, 50, 0.8)), url("../img/bg_banner1.jpg");
+}
+
+footer .navbar-brand{
+    color: #fff !important;
+    margin-bottom: 28px;
+    display: inline-block;
+}
+
+.footer-top{
+    margin-bottom: 40px;
+}
+
+.footer-top .soical-media-top>a{
+    margin-left: 5px;
+  margin-right: 5px;
+}
+.footer-bottom{
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 24px;
+    
+    
+}
+
+
+/* ==========================================================================================================
+                                                FORM
+=============================================================================================================*/
+
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: var(--oragnColor);
+}
